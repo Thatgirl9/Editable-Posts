@@ -1,0 +1,38 @@
+.post_div {
+  margin-left: 2em;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.posts_div {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.each_post {
+  border: 2px solid #ccc;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.button_div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 0.5em;
+  font-family: "Architects Daughter", cursive;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid orangered;
+  background-color: orangered;
+  color: white;
+}
+
+.btn-1,
+.btn-2 {
+  margin-bottom: 0.9em;
+}
